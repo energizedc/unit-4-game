@@ -1,0 +1,55 @@
+body {
+    background-image: url("assets/crystal bkgrnd.jpg");
+    
+}
+.header1, .instructions4{
+    background-color: lightgrey;
+    width: 70%;
+    font-size:10px;
+    padding-right: 5px;
+    padding-left: 15px;
+}    
+
+.instructions4{
+    font-size:11px;
+    padding-right: 5px;
+    padding-left: 15px;
+}    
+
+
+
+
+.scorescontainer{
+    max-width: 60%;
+    max-height:100px;  
+}
+
+
+.numtomatch2{
+    width: 30%;
+    height: 100px;
+    background-color: lightpink;
+    font-size:5px;
+   
+}
+.totalscore2{
+    width: 40%;
+    height:100px;
+    background-color: lightgreen;  
+}
+
+.blankcontainer{
+    width: 95%;
+    height: 2px;
+    
+}
+
+.gemcontainer{
+    padding-left: 20px;
+
+}
+
+.gems{
+    max-width: 100%;
+    max-height: 50px;
+}

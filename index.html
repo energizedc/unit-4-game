@@ -1,1 +1,124 @@
-initial create
+<!DOCTYPE html>
+<html lang="en">
+  <head>    
+    <meta charset="UTF-8">
+    <title>The Crystal Collector2</title>
+    <link rel="stylesheet" type="text/css" href="hw4.css">
+    <link rel="stylesheet" type = "text/css"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+
+</head>
+  <body>
+    <div class="header1">
+        <div class="row">
+            <div class="col-sm-12">
+      <h1>Crystal Collector4</h1>
+            </div>
+        </div>
+    </div>  
+    <br>
+    <div class="instructions4">
+        <div class="row">
+            <div class="col-md-12">
+        <h3>  Here's how you play the game: </h3>
+        <br>
+        <ol>
+          <li>You will be given a random number at the start of the game.<span>"Number To Get"</span></li>
+          <li>There are four crystals below.</li>
+          <ul>
+            <li id="green">Blue</li>
+            <li id="green">Green</li>
+            <li id="purple">Red</li>
+            <li id="red">Yelloworange</li>
+          </ul>
+          <br>
+          <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+          <li>You win the game by matching your total score to the random number.</li>
+          <li>You lose the game if your total score goes above the random number.</li>
+          <li>The value of each crystal is hidden from you until you click on it.</li>
+          <li>Each time when the game starts, the game will change the values of each crystal.</li>
+        </ol>
+        <br>
+        </div>
+        </div>
+    </div>
+  <br>
+<!-- --------------------------------------------------- -->
+<!--  This is the container for the scores and goal num  -->
+<!-- --------------------------------------------------- -->
+
+  <div class = "scorescontainer">
+    <div class="row">
+              
+            <div class="numtomatch2">
+                <div class="col-sm-5">      
+                    <h6>Number To Match2</h6>
+                    <div id="goalnum"></div>
+                </div>
+            </div>
+
+            <div class="blank">
+                <div class="col-sm-2">      
+                    <h4>.</h4>
+                </div>
+            </div>
+
+            <div class="totalscore2">
+                <div class="col-sm-5">       
+                    <h5> Wins</h5>
+                <div id="wins"></div>
+                <br>
+                <div id="wins"></div>
+                    <h5>Losses</h5>
+                <div id="losses"></div>
+    
+            </div>
+        </div>
+
+        <br> 
+<!-- ----------------------------------------- -->
+<!--  This is the row of Crystals  --------------> 
+<!-- ----------------------------------------- -->
+    <br>
+    <br>
+<div class = "blankcontainer">        
+        <div class="row">
+            <div class="col-sm-12">      
+                <h7>.</h7>
+            </div>        
+        </div>
+
+
+
+      <div class = "gemcontainer">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="Assets/green.png" alt="green" class="gems" id="green">
+                </div>
+        
+            <div class="col-sm-3">
+                <img src="Assets/orange.jpg" alt="orange" class="gems"  id="orange">
+                </div> 
+            
+            <div class="col-sm-3">
+                <img src="Assets/purple.jpg" alt="purple" class="gems" id="purple" >
+                </div>
+        
+            <div class="col-sm-3">
+                <img src="Assets/red.jpg" alt="red" class="gems" id="red">
+                </div> 
+
+            </div>
+        </div>
+    </div>  
+<!--  this is a comment  -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+
+
+
+
+
+
+</body>
+</html>
