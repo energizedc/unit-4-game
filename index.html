@@ -3,12 +3,13 @@
   <head>    
     <meta charset="UTF-8">
     <title>The Crystal Collector2</title>
-    <link rel="stylesheet" type="text/css" href="hw4.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type = "text/css"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     
 
 </head>
   <body>
+    
     <div class="header1">
         <div class="row">
             <div class="col-sm-12">
@@ -23,13 +24,13 @@
         <h3>  Here's how you play the game: </h3>
         <br>
         <ol>
-          <li>You will be given a random number at the start of the game.<span>"Number To Get"</span></li>
+          <li>You will be given a random number at the start of the game.<span>"Goal Number"</span></li>
           <li>There are four crystals below.</li>
           <ul>
-            <li id="green">Blue</li>
             <li id="green">Green</li>
-            <li id="purple">Red</li>
-            <li id="red">Yelloworange</li>
+            <li id="orange">Orange</li>
+            <li id="purple">Purple</li>
+            <li id="red">Red</li>
           </ul>
           <br>
           <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
@@ -51,9 +52,14 @@
     <div class="row">
               
             <div class="numtomatch2">
-                <div class="col-sm-5">      
-                    <h6>Number To Match2</h6>
-                    <div id="goalnum"></div>
+                   <div class="col-sm-5">      
+                        <h6 id="goalNum">Goal Num:  </h6>
+                            <br>
+                        <h6 id="userScore">Your Score:  </h6>
+                    
+
+
+
                 </div>
             </div>
 
@@ -63,17 +69,13 @@
                 </div>
             </div>
 
-            <div class="totalscore2">
+            <div class="totalscores2">
                 <div class="col-sm-5">       
-                    <h5> Wins</h5>
-                <div id="wins"></div>
-                <br>
-                <div id="wins"></div>
-                    <h5>Losses</h5>
-                <div id="losses"></div>
-    
+                    <h6 id = "wins"> Wins:   </h6>
+                <br>               
+                    <h6 id="losses"> Losses:   </h6>        
+                </div>
             </div>
-        </div>
 
         <br> 
 <!-- ----------------------------------------- -->
@@ -93,32 +95,38 @@
       <div class = "gemcontainer">
         <div class="row">
             <div class="col-sm-3">
-                <img src="Assets/green.png" alt="green" class="gems" id="green">
+                <img src="assets/images/green.png" alt="green" class="gems" id = "green" >
                 </div>
         
             <div class="col-sm-3">
-                <img src="Assets/orange.jpg" alt="orange" class="gems"  id="orange">
+                <img src="assets/images/orange.jpg" alt="orange" class="gems"  id = "orange">
                 </div> 
             
             <div class="col-sm-3">
-                <img src="Assets/purple.jpg" alt="purple" class="gems" id="purple" >
+                <img src="assets/images/purple.jpg" alt="purple" class="gems" id = "purple" >
                 </div>
         
-            <div class="col-sm-3">
-                <img src="Assets/red.jpg" alt="red" class="gems" id="red">
+            <div class="col-sm-3" >
+                <img src="assets/images/red.jpg" alt="red2" class="gems" id = "red"> 
                 </div> 
 
             </div>
         </div>
-    </div>  
+    </div> 
+
 <!--  this is a comment  -->
+
+
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
-<script type="text/javascript" src="assets/javascript/javascript.js"></script>
-
-
-
-
-
-
-</body>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+<script>
+    ///////////////////////////////////////////////////////////////////////////////////
+    //
+    //    TA's and Alex, i am turning in what i have done on this assignment.  as stated 
+    //   during office hours, when i try to run the Javascript portion "onclick"
+    //    the program does not acknowledge that i am clicking.   Donna
+    //////////////////////////////////////////////////////////////////////////////////
+</script>
+</body> 
 </html>
